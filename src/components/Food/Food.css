@@ -1,0 +1,32 @@
+.food img{
+    width: 300px;
+    height: 250px;
+    border-radius: 4px;
+    
+}
+.food{
+    border: 2px solid lightgray;
+    border-radius: 9px;
+    padding: 5px;
+}
+.btn-add{
+    background-color: rgb(255, 165, 29);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: rgb(252, 252, 183);
+}
+.btn-add:hover{
+    background-color: rgb(233, 164, 61);
+}
+@media only screen and (max-width:688px){
+    .food img{
+        width: 120px;
+        height: 100px;
+        border-radius: 4px;
+        
+    } 
+    .food{
+        width: 130px;
+    }
+}

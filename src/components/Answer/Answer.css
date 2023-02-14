@@ -1,0 +1,11 @@
+.answer{
+    background-color: rgb(255, 203, 138);
+    width: 600px;
+    border-radius: 20px;
+    padding: 30px;
+}
+@media only screen and (max-width:688px){
+    .answer{
+        width: 90%;
+    }
+}

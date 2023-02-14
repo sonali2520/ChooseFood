@@ -1,0 +1,17 @@
+.nav-bar{
+    background-color: rgb(250, 163, 64);
+    margin:0;
+    height: 100;
+    
+   
+    padding: 10px;
+    color: beige;
+    text-align: center;
+}
+
+@media only screen and (max-width:688px){
+    .nav-bar{
+        width: 100%;
+        overflow: hidden;
+    }
+}
